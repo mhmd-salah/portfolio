@@ -18,6 +18,9 @@ tabs.forEach((tab)  => {
 })
 
 /*=============== DARK LIGHT THEME ===============*/
-
+const modeButton = document.getElementById( "theme-button" )
+modeButton.addEventListener( "click", function () {
+  document.body.toggleAttribute("dark-theme")
+})
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
