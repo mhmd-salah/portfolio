@@ -390,10 +390,15 @@ body{
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
-
-
-/* For medium devices */
-
-
-/* For large devices */
+@media(max-width:767px){
+  body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  body > main > section{
+    width: 300px;
+  }
+}
