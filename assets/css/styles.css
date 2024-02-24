@@ -163,6 +163,21 @@ body{
   place-items: center;
   margin-bottom: .75rem;
 }
+@media(min-width:767px){
+  .profile__border{
+    width: 200px;
+    height: 200px;
+  }
+  .profile__perfil{
+    width: 189px;
+    height: 189px;
+  }
+  .profile__perfil img{
+    width: 100%;
+    height: 100%;
+
+  }
+}
 .profile__name{
   font-size: var(--h2-font-size);
 }
