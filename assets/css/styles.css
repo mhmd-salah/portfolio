@@ -271,6 +271,13 @@ body{
   justify-content: space-between;
   column-gap: .5rem;
 }
+@media(min-width:767px){
+  .filters__content{
+    width: 60%;
+    margin-inline: auto;
+    padding: .300rem;
+  }
+}
 .filters__button{
   width: 100%;
   border: none;
